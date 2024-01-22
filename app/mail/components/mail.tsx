@@ -136,7 +136,6 @@ export function Mail({
         <ResizableHandle withHandle />
         <ResizablePanel
           defaultSize={defaultLayout[2]}
-          className="overflow-clip"
         >
           <MailDisplay
             mail={mails.find((item) => item.id === selectedMail.id) || null}
